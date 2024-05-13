@@ -8,7 +8,7 @@ dp = Dispatcher(bot)
 async def start(message: types.Message):
     markup = types.ReplyKeyboardMarkup()
     markup.add(
-        types.KeyboardButton('Button 1', web_app=WebAppInfo(url='https://gemini.google.com')))
+        types.KeyboardButton('Button 1', web_app=WebAppInfo(url='https://shymi001.github.io/name/gogole/')))
     await message.answer('Hello, my друг!', reply_markup=markup)
 
 executor.start_polling(dp)
